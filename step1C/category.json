@@ -1,23 +1,23 @@
 [
   {
     "idCategory": "1",
-    "category": "İş"
+    "category": "Travail"
   },
   {
     "idCategory": "2",
-    "category": "Kişisel"
+    "category": "Personnel"
   },
   {
     "idCategory": "3",
-    "category": "Eğitim"
+    "category": "Éducation"
   },
   {
     "idCategory": "4",
-    "category": "Sağlık"
+    "category": "Santé"
   },
   {
     "idCategory": "5",
-    "category": "Alışveriş"
+    "category": "Courses"
   }
 ]
 

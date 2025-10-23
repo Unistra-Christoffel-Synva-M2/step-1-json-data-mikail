@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="tr">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List - JSON Data</title>
+    <title>To-Do List - Données JSON</title>
     <script>
         // Liste des tâches
         let listeTasks = [
             {
                 "idTask": "1",
-                "title": "Proje sunumu hazırla",
-                "description": "Yıl sonu proje sunumunu hazırlamak ve slaytları tamamlamak",
+                "title": "Préparer la présentation du projet",
+                "description": "Préparer la présentation du projet de fin d'année et finaliser les diapositives",
                 "creationDate": "2025-10-23",
                 "dueDate": "2025-11-15",
                 "idPriority": "1",
@@ -20,8 +20,8 @@
             },
             {
                 "idTask": "2",
-                "title": "Doktor randevusu al",
-                "description": "Yıllık kontrol için doktor randevusu almak",
+                "title": "Prendre rendez-vous chez le médecin",
+                "description": "Prendre rendez-vous pour le contrôle annuel chez le médecin",
                 "creationDate": "2025-10-23",
                 "dueDate": "2025-10-30",
                 "idPriority": "2",
@@ -31,8 +31,8 @@
             },
             {
                 "idTask": "3",
-                "title": "Market alışverişi yap",
-                "description": "Haftalık market alışverişi listesini tamamlamak",
+                "title": "Faire les courses",
+                "description": "Compléter la liste des courses hebdomadaires au supermarché",
                 "creationDate": "2025-10-23",
                 "dueDate": "2025-10-25",
                 "idPriority": "3",
@@ -46,23 +46,23 @@
         let listePriorities = [
             {
                 "idPriority": "1",
-                "priority": "Çok Önemli"
+                "priority": "Très important"
             },
             {
                 "idPriority": "2",
-                "priority": "Önemli"
+                "priority": "Important"
             },
             {
                 "idPriority": "3",
-                "priority": "Orta"
+                "priority": "Moyen"
             },
             {
                 "idPriority": "4",
-                "priority": "Düşük"
+                "priority": "Faible"
             },
             {
                 "idPriority": "5",
-                "priority": "Çok Düşük"
+                "priority": "Très faible"
             }
         ];
 
@@ -70,23 +70,23 @@
         let listeCategories = [
             {
                 "idCategory": "1",
-                "category": "İş"
+                "category": "Travail"
             },
             {
                 "idCategory": "2",
-                "category": "Kişisel"
+                "category": "Personnel"
             },
             {
                 "idCategory": "3",
-                "category": "Eğitim"
+                "category": "Éducation"
             },
             {
                 "idCategory": "4",
-                "category": "Sağlık"
+                "category": "Santé"
             },
             {
                 "idCategory": "5",
-                "category": "Alışveriş"
+                "category": "Courses"
             }
         ];
 
@@ -94,23 +94,23 @@
         let listeStatuses = [
             {
                 "idStatus": "1",
-                "status": "Beklemede"
+                "status": "En attente"
             },
             {
                 "idStatus": "2",
-                "status": "Devam Ediyor"
+                "status": "En cours"
             },
             {
                 "idStatus": "3",
-                "status": "Tamamlandı"
+                "status": "Terminée"
             },
             {
                 "idStatus": "4",
-                "status": "İptal Edildi"
+                "status": "Annulée"
             },
             {
                 "idStatus": "5",
-                "status": "Ertelendi"
+                "status": "Reportée"
             }
         ];
 
@@ -118,45 +118,45 @@
         let listeDifficulties = [
             {
                 "idDifficulty": "1",
-                "difficulty": "Çok Kolay"
+                "difficulty": "Très facile"
             },
             {
                 "idDifficulty": "2",
-                "difficulty": "Kolay"
+                "difficulty": "Facile"
             },
             {
                 "idDifficulty": "3",
-                "difficulty": "Orta"
+                "difficulty": "Moyen"
             },
             {
                 "idDifficulty": "4",
-                "difficulty": "Zor"
+                "difficulty": "Difficile"
             },
             {
                 "idDifficulty": "5",
-                "difficulty": "Çok Zor"
+                "difficulty": "Très difficile"
             }
         ];
 
         // Affichage dans la console
-        console.log("=== TASKS ===");
+        console.log("=== TÂCHES ===");
         console.log(listeTasks);
         
-        console.log("\n=== PRIORITIES ===");
+        console.log("\n=== PRIORITÉS ===");
         console.log(listePriorities);
         
-        console.log("\n=== CATEGORIES ===");
+        console.log("\n=== CATÉGORIES ===");
         console.log(listeCategories);
         
-        console.log("\n=== STATUSES ===");
+        console.log("\n=== STATUTS ===");
         console.log(listeStatuses);
         
-        console.log("\n=== DIFFICULTIES ===");
+        console.log("\n=== DIFFICULTÉS ===");
         console.log(listeDifficulties);
     </script>
 </head>
 <body>
-    <h1>To-Do List Application</h1>
+    <h1>Application To-Do List</h1>
     <p>Ouvrez la console du navigateur (F12) pour voir les données JSON.</p>
 </body>
 </html>

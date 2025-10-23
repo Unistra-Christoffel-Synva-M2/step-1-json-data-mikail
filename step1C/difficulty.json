@@ -1,23 +1,23 @@
 [
   {
     "idDifficulty": "1",
-    "difficulty": "Çok Kolay"
+    "difficulty": "Très facile"
   },
   {
     "idDifficulty": "2",
-    "difficulty": "Kolay"
+    "difficulty": "Facile"
   },
   {
     "idDifficulty": "3",
-    "difficulty": "Orta"
+    "difficulty": "Moyen"
   },
   {
     "idDifficulty": "4",
-    "difficulty": "Zor"
+    "difficulty": "Difficile"
   },
   {
     "idDifficulty": "5",
-    "difficulty": "Çok Zor"
+    "difficulty": "Très difficile"
   }
 ]
 

@@ -1,23 +1,23 @@
 [
   {
     "idStatus": "1",
-    "status": "Beklemede"
+    "status": "En attente"
   },
   {
     "idStatus": "2",
-    "status": "Devam Ediyor"
+    "status": "En cours"
   },
   {
     "idStatus": "3",
-    "status": "Tamamlandı"
+    "status": "Terminée"
   },
   {
     "idStatus": "4",
-    "status": "İptal Edildi"
+    "status": "Annulée"
   },
   {
     "idStatus": "5",
-    "status": "Ertelendi"
+    "status": "Reportée"
   }
 ]
 

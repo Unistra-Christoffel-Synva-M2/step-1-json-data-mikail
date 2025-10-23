@@ -1,23 +1,23 @@
 [
   {
     "idPriority": "1",
-    "priority": "Çok Önemli"
+    "priority": "Très important"
   },
   {
     "idPriority": "2",
-    "priority": "Önemli"
+    "priority": "Important"
   },
   {
     "idPriority": "3",
-    "priority": "Orta"
+    "priority": "Moyen"
   },
   {
     "idPriority": "4",
-    "priority": "Düşük"
+    "priority": "Faible"
   },
   {
     "idPriority": "5",
-    "priority": "Çok Düşük"
+    "priority": "Très faible"
   }
 ]
 
