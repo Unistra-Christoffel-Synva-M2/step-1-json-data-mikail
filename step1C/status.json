@@ -1,2 +1,23 @@
-[{"idStatus":"1","status":"Beklemede"},{"idStatus":"2","status":"Devam Ediyor"},{"idStatus":"3","status":"Tamamlandı"},{"idStatus":"4","status":"İptal Edildi"},{"idStatus":"5","status":"Ertelendi"}]
+[
+  {
+    "idStatus": "1",
+    "status": "Beklemede"
+  },
+  {
+    "idStatus": "2",
+    "status": "Devam Ediyor"
+  },
+  {
+    "idStatus": "3",
+    "status": "Tamamlandı"
+  },
+  {
+    "idStatus": "4",
+    "status": "İptal Edildi"
+  },
+  {
+    "idStatus": "5",
+    "status": "Ertelendi"
+  }
+]
 

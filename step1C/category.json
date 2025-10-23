@@ -1,2 +1,23 @@
-[{"idCategory":"1","category":"İş"},{"idCategory":"2","category":"Kişisel"},{"idCategory":"3","category":"Eğitim"},{"idCategory":"4","category":"Sağlık"},{"idCategory":"5","category":"Alışveriş"}]
+[
+  {
+    "idCategory": "1",
+    "category": "İş"
+  },
+  {
+    "idCategory": "2",
+    "category": "Kişisel"
+  },
+  {
+    "idCategory": "3",
+    "category": "Eğitim"
+  },
+  {
+    "idCategory": "4",
+    "category": "Sağlık"
+  },
+  {
+    "idCategory": "5",
+    "category": "Alışveriş"
+  }
+]
 

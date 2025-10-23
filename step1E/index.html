@@ -7,52 +7,151 @@
     <script>
         // Liste des tâches
         let listeTasks = [
-            {"idTask":"1","title":"Proje sunumu hazırla","description":"Yıl sonu proje sunumunu hazırlamak ve slaytları tamamlamak","creationDate":"2025-10-23","dueDate":"2025-11-15","idPriority":"1","idCategory":"3","idStatus":"2","idDifficulty":"4"},
-            {"idTask":"2","title":"Doktor randevusu al","description":"Yıllık kontrol için doktor randevusu almak","creationDate":"2025-10-23","dueDate":"2025-10-30","idPriority":"2","idCategory":"4","idStatus":"1","idDifficulty":"1"},
-            {"idTask":"3","title":"Market alışverişi yap","description":"Haftalık market alışverişi listesini tamamlamak","creationDate":"2025-10-23","dueDate":"2025-10-25","idPriority":"3","idCategory":"5","idStatus":"2","idDifficulty":"2"}
+            {
+                "idTask": "1",
+                "title": "Proje sunumu hazırla",
+                "description": "Yıl sonu proje sunumunu hazırlamak ve slaytları tamamlamak",
+                "creationDate": "2025-10-23",
+                "dueDate": "2025-11-15",
+                "idPriority": "1",
+                "idCategory": "3",
+                "idStatus": "2",
+                "idDifficulty": "4"
+            },
+            {
+                "idTask": "2",
+                "title": "Doktor randevusu al",
+                "description": "Yıllık kontrol için doktor randevusu almak",
+                "creationDate": "2025-10-23",
+                "dueDate": "2025-10-30",
+                "idPriority": "2",
+                "idCategory": "4",
+                "idStatus": "1",
+                "idDifficulty": "1"
+            },
+            {
+                "idTask": "3",
+                "title": "Market alışverişi yap",
+                "description": "Haftalık market alışverişi listesini tamamlamak",
+                "creationDate": "2025-10-23",
+                "dueDate": "2025-10-25",
+                "idPriority": "3",
+                "idCategory": "5",
+                "idStatus": "2",
+                "idDifficulty": "2"
+            }
         ];
 
         // Liste des priorités
         let listePriorities = [
-            {"idPriority":"1","priority":"Çok Önemli"},
-            {"idPriority":"2","priority":"Önemli"},
-            {"idPriority":"3","priority":"Orta"},
-            {"idPriority":"4","priority":"Düşük"},
-            {"idPriority":"5","priority":"Çok Düşük"}
+            {
+                "idPriority": "1",
+                "priority": "Çok Önemli"
+            },
+            {
+                "idPriority": "2",
+                "priority": "Önemli"
+            },
+            {
+                "idPriority": "3",
+                "priority": "Orta"
+            },
+            {
+                "idPriority": "4",
+                "priority": "Düşük"
+            },
+            {
+                "idPriority": "5",
+                "priority": "Çok Düşük"
+            }
         ];
 
         // Liste des catégories
         let listeCategories = [
-            {"idCategory":"1","category":"İş"},
-            {"idCategory":"2","category":"Kişisel"},
-            {"idCategory":"3","category":"Eğitim"},
-            {"idCategory":"4","category":"Sağlık"},
-            {"idCategory":"5","category":"Alışveriş"}
+            {
+                "idCategory": "1",
+                "category": "İş"
+            },
+            {
+                "idCategory": "2",
+                "category": "Kişisel"
+            },
+            {
+                "idCategory": "3",
+                "category": "Eğitim"
+            },
+            {
+                "idCategory": "4",
+                "category": "Sağlık"
+            },
+            {
+                "idCategory": "5",
+                "category": "Alışveriş"
+            }
         ];
 
         // Liste des statuts
         let listeStatuses = [
-            {"idStatus":"1","status":"Beklemede"},
-            {"idStatus":"2","status":"Devam Ediyor"},
-            {"idStatus":"3","status":"Tamamlandı"},
-            {"idStatus":"4","status":"İptal Edildi"},
-            {"idStatus":"5","status":"Ertelendi"}
+            {
+                "idStatus": "1",
+                "status": "Beklemede"
+            },
+            {
+                "idStatus": "2",
+                "status": "Devam Ediyor"
+            },
+            {
+                "idStatus": "3",
+                "status": "Tamamlandı"
+            },
+            {
+                "idStatus": "4",
+                "status": "İptal Edildi"
+            },
+            {
+                "idStatus": "5",
+                "status": "Ertelendi"
+            }
         ];
 
         // Liste des difficultés
         let listeDifficulties = [
-            {"idDifficulty":"1","difficulty":"Çok Kolay"},
-            {"idDifficulty":"2","difficulty":"Kolay"},
-            {"idDifficulty":"3","difficulty":"Orta"},
-            {"idDifficulty":"4","difficulty":"Zor"},
-            {"idDifficulty":"5","difficulty":"Çok Zor"}
+            {
+                "idDifficulty": "1",
+                "difficulty": "Çok Kolay"
+            },
+            {
+                "idDifficulty": "2",
+                "difficulty": "Kolay"
+            },
+            {
+                "idDifficulty": "3",
+                "difficulty": "Orta"
+            },
+            {
+                "idDifficulty": "4",
+                "difficulty": "Zor"
+            },
+            {
+                "idDifficulty": "5",
+                "difficulty": "Çok Zor"
+            }
         ];
 
         // Affichage dans la console
+        console.log("=== TASKS ===");
         console.log(listeTasks);
+        
+        console.log("\n=== PRIORITIES ===");
         console.log(listePriorities);
+        
+        console.log("\n=== CATEGORIES ===");
         console.log(listeCategories);
+        
+        console.log("\n=== STATUSES ===");
         console.log(listeStatuses);
+        
+        console.log("\n=== DIFFICULTIES ===");
         console.log(listeDifficulties);
     </script>
 </head>

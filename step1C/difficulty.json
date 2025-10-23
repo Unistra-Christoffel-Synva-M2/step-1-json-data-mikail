@@ -1,2 +1,23 @@
-[{"idDifficulty":"1","difficulty":"Çok Kolay"},{"idDifficulty":"2","difficulty":"Kolay"},{"idDifficulty":"3","difficulty":"Orta"},{"idDifficulty":"4","difficulty":"Zor"},{"idDifficulty":"5","difficulty":"Çok Zor"}]
+[
+  {
+    "idDifficulty": "1",
+    "difficulty": "Çok Kolay"
+  },
+  {
+    "idDifficulty": "2",
+    "difficulty": "Kolay"
+  },
+  {
+    "idDifficulty": "3",
+    "difficulty": "Orta"
+  },
+  {
+    "idDifficulty": "4",
+    "difficulty": "Zor"
+  },
+  {
+    "idDifficulty": "5",
+    "difficulty": "Çok Zor"
+  }
+]
 
