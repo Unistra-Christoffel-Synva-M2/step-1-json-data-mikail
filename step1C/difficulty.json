@@ -1,0 +1,23 @@
+[
+  {
+    "idDifficulty": "1",
+    "difficulty": "Très facile"
+  },
+  {
+    "idDifficulty": "2",
+    "difficulty": "Facile"
+  },
+  {
+    "idDifficulty": "3",
+    "difficulty": "Moyen"
+  },
+  {
+    "idDifficulty": "4",
+    "difficulty": "Difficile"
+  },
+  {
+    "idDifficulty": "5",
+    "difficulty": "Très difficile"
+  }
+]
+

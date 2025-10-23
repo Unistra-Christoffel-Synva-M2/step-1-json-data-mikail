@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List - Données JSON</title>
+    <script>
+        // Liste des tâches
+        let listeTasks = [
+            {
+                "idTask": "1",
+                "title": "Préparer la présentation du projet",
+                "description": "Préparer la présentation du projet de fin d'année et finaliser les diapositives",
+                "creationDate": "2025-10-23",
+                "dueDate": "2025-11-15",
+                "idPriority": "1",
+                "idCategory": "3",
+                "idStatus": "2",
+                "idDifficulty": "4"
+            },
+            {
+                "idTask": "2",
+                "title": "Prendre rendez-vous chez le médecin",
+                "description": "Prendre rendez-vous pour le contrôle annuel chez le médecin",
+                "creationDate": "2025-10-23",
+                "dueDate": "2025-10-30",
+                "idPriority": "2",
+                "idCategory": "4",
+                "idStatus": "1",
+                "idDifficulty": "1"
+            },
+            {
+                "idTask": "3",
+                "title": "Faire les courses",
+                "description": "Compléter la liste des courses hebdomadaires au supermarché",
+                "creationDate": "2025-10-23",
+                "dueDate": "2025-10-25",
+                "idPriority": "3",
+                "idCategory": "5",
+                "idStatus": "2",
+                "idDifficulty": "2"
+            }
+        ];
+
+        // Liste des priorités
+        let listePriorities = [
+            {
+                "idPriority": "1",
+                "priority": "Très important"
+            },
+            {
+                "idPriority": "2",
+                "priority": "Important"
+            },
+            {
+                "idPriority": "3",
+                "priority": "Moyen"
+            },
+            {
+                "idPriority": "4",
+                "priority": "Faible"
+            },
+            {
+                "idPriority": "5",
+                "priority": "Très faible"
+            }
+        ];
+
+        // Liste des catégories
+        let listeCategories = [
+            {
+                "idCategory": "1",
+                "category": "Travail"
+            },
+            {
+                "idCategory": "2",
+                "category": "Personnel"
+            },
+            {
+                "idCategory": "3",
+                "category": "Éducation"
+            },
+            {
+                "idCategory": "4",
+                "category": "Santé"
+            },
+            {
+                "idCategory": "5",
+                "category": "Courses"
+            }
+        ];
+
+        // Liste des statuts
+        let listeStatuses = [
+            {
+                "idStatus": "1",
+                "status": "En attente"
+            },
+            {
+                "idStatus": "2",
+                "status": "En cours"
+            },
+            {
+                "idStatus": "3",
+                "status": "Terminée"
+            },
+            {
+                "idStatus": "4",
+                "status": "Annulée"
+            },
+            {
+                "idStatus": "5",
+                "status": "Reportée"
+            }
+        ];
+
+        // Liste des difficultés
+        let listeDifficulties = [
+            {
+                "idDifficulty": "1",
+                "difficulty": "Très facile"
+            },
+            {
+                "idDifficulty": "2",
+                "difficulty": "Facile"
+            },
+            {
+                "idDifficulty": "3",
+                "difficulty": "Moyen"
+            },
+            {
+                "idDifficulty": "4",
+                "difficulty": "Difficile"
+            },
+            {
+                "idDifficulty": "5",
+                "difficulty": "Très difficile"
+            }
+        ];
+
+        // Affichage dans la console
+        console.log("=== TÂCHES ===");
+        console.log(listeTasks);
+        
+        console.log("\n=== PRIORITÉS ===");
+        console.log(listePriorities);
+        
+        console.log("\n=== CATÉGORIES ===");
+        console.log(listeCategories);
+        
+        console.log("\n=== STATUTS ===");
+        console.log(listeStatuses);
+        
+        console.log("\n=== DIFFICULTÉS ===");
+        console.log(listeDifficulties);
+    </script>
+</head>
+<body>
+    <h1>Application To-Do List</h1>
+    <p>Ouvrez la console du navigateur (F12) pour voir les données JSON.</p>
+</body>
+</html>
+

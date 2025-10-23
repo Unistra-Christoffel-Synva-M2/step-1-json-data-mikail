@@ -1,0 +1,23 @@
+[
+  {
+    "idPriority": "1",
+    "priority": "Très important"
+  },
+  {
+    "idPriority": "2",
+    "priority": "Important"
+  },
+  {
+    "idPriority": "3",
+    "priority": "Moyen"
+  },
+  {
+    "idPriority": "4",
+    "priority": "Faible"
+  },
+  {
+    "idPriority": "5",
+    "priority": "Très faible"
+  }
+]
+
