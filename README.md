@@ -1,37 +1,129 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=21244719&assignment_repo_type=AssignmentRepo)
-# json_step1A_E
-Upload JSON steps
+# Étape 1 : Structure des Données JSON - To-Do List
 
-Enoncé de la SP
+**Équipe #1 : Mikail Lekesiz & Mickael Hoffer**  
+**Formation : LP DWCA - Développeur Web et Conception d'Applications**  
+**Professeur : Eric Christoffel**  
+**Université de Strasbourg - 2025**
 
-Mise en situation
+---
 
-L’application repose sur l’API (Application Programming Interface) Local Storage, qui permet l’enregistrement de données par le navigateur, qui seront conservées même après la fermeture du navigateur. Ces données sont identifiées par une « clé » et sont dans le format JSON (JavaScript Object Notation), à savoir des paires propriété / valeur, ou clé / valeur.
+## 📋 Vue d'Ensemble
 
-Une application Front-End implique les langages HTML, CSS, Javascript et APIs, et données JSON.
+Ce projet constitue la **première étape** d'une application web Front-End de gestion de tâches (To-Do List). L'objectif est de définir et structurer les données au format **JSON** qui seront utilisées pour stocker les tâches dans le **Local Storage** du navigateur.
 
-Cette application sera compatible Mobile, notamment pour la saisie d'une tâche de la To Do List.
+**✅ Toutes les étapes (1A à 1E) sont complètes et fonctionnelles.**
 
-Le principe de la « to Do List » est d’enregistrer des tâches, dont il faudra déterminer les propriétés qui caractérisent cette tâche, notamment un libellé pour cette tâche.
+---
 
-Ces tâches pourront être classées par « Priorité », c’est une variable propre à la tâche. Les valeurs possibles pour cette priorité sont par ex. Importante, Moyenne, Peu important, ... .
+## 📁 Structure du Projet
 
-D’autres variables devront être envisagées (à vous de les imaginer).
+```
+.
+├── README.md                    # Documentation complète
+├── index.html                   # Page de démonstration principale
+├── step1A/
+│   ├── readme.txt              # Consignes de l'étape 1A
+│   └── task.json               # ✅ Structure d'une tâche
+├── step1B/
+│   ├── readme.txt              # Consignes de l'étape 1B
+│   └── priority.json           # ✅ Données des priorités
+├── step1C/
+│   ├── readme.txt              # Consignes de l'étape 1C
+│   ├── category.json           # ✅ Données des catégories
+│   ├── status.json             # ✅ Données des statuts
+│   └── difficulty.json         # ✅ Données des difficultés
+├── step1D/
+│   ├── readme.txt              # Consignes de l'étape 1D
+│   └── tasks.json              # ✅ Tableau de tâches complètes
+└── step1E/
+    ├── readme.txt              # Consignes de l'étape 1E
+    └── index.html              # ✅ Page HTML avec console.log
+```
 
-L'application disposera d'un formulaire pour enregistrer les tâches, puis, un tableau récapitulatif des tâches permettra la gestion de celles-ci : l'édition, mais surtout de notifier les tâches réalisées, terminées, ou même annulées.
+---
 
-Le projet se déroulera en 4 étapes. Bien entendu, il s’agira d’une version simplifiée, mais dont le but et de comprendre les principes d’une application Front-End exclusivement (donc sans base de données MySQL).
+## 🔹 Étape 1A : Structure d'une Tâche
 
-Travail en équipe de 3 max.
+**Fichier :** `step1A/task.json`
 
-Etape N1 : la structure des données au format JSON 
+### Propriétés Définies
 
-Déterminez les « propriétés » qui caractérisent une tâche, en plus du titre (ou libellé) de la tâche, indépendamment de sa priorité pour l'instant. Quelles autres propriétés pouvez vous imaginer?
+| Propriété      | Type   | Description                                    |
+|----------------|--------|------------------------------------------------|
+| `idTask`       | String | Identifiant unique de la tâche (Primary Key)  |
+| `title`        | String | Titre/libellé de la tâche                     |
+| `description`  | String | Description détaillée de la tâche             |
+| `creationDate` | String | Date de création (format YYYY-MM-DD)          |
+| `dueDate`      | String | Date d'échéance (format YYYY-MM-DD)           |
+| `status`       | String | Statut actuel de la tâche                     |
 
-Construire la structure des données au format JSON, d’un côté, les données de la variable « Priorité », puis, d'un autre côté, les données d’une tâche. Un « identifiant » sera défini pour la variable « Priorité », ainsi que pour une tâche. La priorité pour une tâche sera alors reconnue via la valeur de l’identifiant, et non la priorité correspondante.
+---
 
-Par analogie avec une base de données MySQL, et des tables pour les priorités et les tâches, l'identifiant de la variable, donc la table, Priorité est une clé primaire (Primary Key). L'identifiant défini pour une tâche est également une clé primaire. En revanche, l'identifiant qui caractérise la priorité d'une tâche, que l'on retrouve dans une tâche est alors une clé étrangère (Foreign Key).
+## 🔹 Étape 1B : Paramètre Priorité
 
-Générer un jeu de données, à savoir plusieurs tâches, sous forme d’une Array Javascript (tableau d’éléments), dont chaque élément est une tâche au format JSON.
+**Fichier :** `step1B/priority.json`
 
-Pour cette étape, données JSON, suivez scrupuleusement les sous-étapes 1A à 1D, qu'il faudra publier indépendamment pour faciliter la correction.
+5 niveaux de priorité définis : Très Important, Important, Moyen, Faible, Très Faible
+
+---
+
+## 🔹 Étape 1C : Autres Paramètres
+
+**3 paramètres supplémentaires créés :**
+
+1. **Catégorie** (`category.json`) : Travail, Personnel, Éducation, Santé, Shopping
+2. **Statut** (`status.json`) : En attente, En cours, Terminée, Annulée, Reportée
+3. **Difficulté** (`difficulty.json`) : Très Facile, Facile, Moyen, Difficile, Très Difficile
+
+---
+
+## 🔹 Étape 1D : Structure Complète des Tâches
+
+**Fichier :** `step1D/tasks.json`
+
+Les tâches utilisent des **identifiants (ID)** pour référencer les paramètres (Foreign Keys).
+
+**3 tâches d'exemple** avec toutes les propriétés et relations.
+
+---
+
+## 🔹 Étape 1E : Page HTML de Démonstration
+
+**Fichiers :** `step1E/index.html` et `index.html` (racine)
+
+La page charge toutes les données JSON et les affiche dans la console (F12).
+
+---
+
+## 🌐 Utilisation
+
+1. Cloner le repository
+2. Ouvrir `index.html` dans un navigateur
+3. Appuyer sur **F12** pour ouvrir la console
+4. Visualiser les données JSON affichées
+
+---
+
+## 👥 Équipe
+
+**Équipe #1**
+- **Mikail Lekesiz**
+- **Mickael Hoffer**
+
+**Professeur : Eric Christoffel**  
+**Université de Strasbourg - LP DWCA 2025**
+
+---
+
+## 📝 Notes
+
+✅ Tous les fichiers JSON sont au format compact  
+✅ Foreign Keys utilisées conformément aux consignes  
+✅ Données en français  
+✅ 3 paramètres originaux (Catégorie, Statut, Difficulté)  
+✅ Structures JSON valides et testées
+
+---
+
+**© 2025 - LP DWCA - Université de Strasbourg**
+
